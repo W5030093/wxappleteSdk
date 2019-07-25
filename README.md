@@ -4,8 +4,7 @@
 
 使用方法:
 
-
-package com.wt.park.bus.config;
+```xml
 
 import cn.binarywang.wx.miniapp.api.WxMaConfigStorage;
 import cn.binarywang.wx.miniapp.api.WxMaService;
@@ -162,8 +161,6 @@ public class WxMaConfiguration {
 
 
 
-package com.wt.park.bus.config;
-
 import cn.binarywang.wx.miniapp.api.WxMaConfigStorage;
 import com.google.common.collect.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -202,7 +199,6 @@ public class WxMaModelConfig {
 
 
 
-package com.wt.park.bus.config;
 
 import lombok.Builder;
 import lombok.Data;
@@ -249,5 +245,5 @@ public class WxMaProperties {
 
 }
 
-
+```
 
